@@ -11,7 +11,7 @@ var Attachment = new Module('attachment');
  * All MEAN packages require registration
  * Dependency injection is used to define required modules
  */
-Attachment.register(function(app, auth, database) {
+Attachment.register(function(app, auth, database, upload) {
 
   //We enable routing. By default the Package Object is passed to the routes
   Attachment.routes(app, auth, database);

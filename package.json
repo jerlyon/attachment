@@ -1,9 +1,9 @@
 {
   "name": "attachment",
   "version": "0.0.1",
-  "description": "Some description of attachment",
+  "description": "MEAN package to allow attachments to an article",
   "author": {
-    "name": "mean scaffold"
+    "name": "jerlyon"
   },
   "mean": "0.4.0",
   "engines": {
